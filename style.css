@@ -16,6 +16,7 @@ h1{
 	color: #71f278;
 	text-align: center;
 	font-size: 3em;
+	text-transform: uppercase;
 }
 
 
@@ -23,6 +24,7 @@ h2{
 	color: #114B5F;
 	text-align: center;
 	font-size: 1.5em;
+	text-transform: uppercase;
 }
 
 p{
@@ -72,27 +74,38 @@ a:hover, a:active {
 }
 
 #navBar li a.active{
-	background: #71f278;
+	background-color: #71f278;
 	color: white;
 }
-/*
-	END NAVIGATION BAR STYLE
-	*************************************
+/*	END NAVIGATION BAR STYLE
+	************************************* 
 */
 
-#resume_link{
-	background: red;
-	color: white;
-	text-decoration: none;
-	float: left;
-	height: 50px;
-	width: 50px;
-
+#resumeStuff{
+	display: inline;
+	float: center;
+	padding: 50px;
 }
 
-#aboutMe{
-	width: 40%;
+#resume_link{
+	background: #424242;
+	color: white;
+	text-decoration: none;
+	float: right;
+	padding: 3%;
+	font-weight: bold;
+	margin-right: 15%;
 	
+}
+
+#resume_link:hover{
+	background-color: #71f278;
+}
+
+#aboutMe {
+	width: 40%;
+	margin: auto;
+	font-size: 1.15em;
 }
 
 #topBar{
@@ -102,10 +115,24 @@ a:hover, a:active {
 	background-color: #3d3d3d;
 }
 
-#contactIcons{
-	text-size: 10em;
-	float: left;
-	list-style-type: none;
+/*  ***********************************
+	CONTACT INFO STYLE 
+*/
+#contactBlock{
 	
 }
 
+#contactText{
+	text-align: left;
+	
+}
+
+#contactIcons{
+	float: left;
+	size: 10em;
+	list-style-type: none;
+	
+}
+/*	END CONTACT INFO STYLE
+	************************************* 
+*/

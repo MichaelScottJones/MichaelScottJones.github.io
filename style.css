@@ -1,0 +1,111 @@
+
+body{
+	background-color: #fcfcfc;
+	color: #3d3d3d;
+	margin: 0;
+	font-family: "Open Sans", "Lucida Grande", sans-serif;
+	text-align: center;
+	padding: 0px;
+	width: 100%;
+	padding-top: 180px;
+
+	
+}
+
+h1{
+	color: #71f278;
+	text-align: center;
+	font-size: 3em;
+}
+
+
+h2{
+	color: #114B5F;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+p{
+	text-align: left;
+}
+
+a:link, a:visited {
+    color: #424242;
+	text-decoration: none;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+a:hover, a:active {
+    color: #999999;
+	text-decoration: none;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+/*  ***********************************
+	NAVIGATION BAR STYLE 
+*/
+#navBar ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	background: #f2f2f2;
+	overflow: hidden;
+}
+
+#navBar li{
+	float: left;
+}
+
+#navBar li a{
+	display: block;
+	text-align: center;
+    padding: 14px 16px;
+    color: #424242;
+	text-decoration: none;
+}
+
+#navBar li a:hover{
+	background: #cccccc;
+    color: white;
+}
+
+#navBar li a.active{
+	background: #71f278;
+	color: white;
+}
+/*
+	END NAVIGATION BAR STYLE
+	*************************************
+*/
+
+#resume_link{
+	background: red;
+	color: white;
+	text-decoration: none;
+	float: left;
+	height: 50px;
+	width: 50px;
+
+}
+
+#aboutMe{
+	width: 40%;
+	
+}
+
+#topBar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #3d3d3d;
+}
+
+#contactIcons{
+	text-size: 10em;
+	float: left;
+	list-style-type: none;
+	
+}
+

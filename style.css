@@ -155,3 +155,9 @@ a:hover, a:active {
 /*	END CONTACT INFO STYLE
 	************************************* 
 */
+
+
+/* centering jump fix*/
+html {
+  overflow-y: scroll;
+}

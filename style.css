@@ -1,4 +1,3 @@
-
 body{
 	background-color: #fcfcfc;
 	color: #3d3d3d;
@@ -8,8 +7,6 @@ body{
 	padding: 0px;
 	width: 100%;
 	padding-top: 180px;
-
-	
 }
 
 h1{
@@ -27,10 +24,6 @@ h2{
 	text-transform: uppercase;
 }
 
-p{
-	text-align: left;
-}
-
 a:link, a:visited {
     color: #424242;
 	text-decoration: none;
@@ -45,8 +38,24 @@ a:hover, a:active {
 	padding-left: 1%;
 }
 
-/*  ***********************************
-	NAVIGATION BAR STYLE 
+#topBar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #3d3d3d;
+}
+
+#aboutMe {
+	width: 40%;
+	margin: auto;
+	font-size: 1.15em;
+	text-align: justify;
+	line-height: 1.2em;
+}
+
+
+/*  *************************************
+	NAVIGATION BAR STYLE 											NAVIGATION BAR STYLE 
 */
 #navBar ul{
 	list-style-type: none;
@@ -81,10 +90,14 @@ a:hover, a:active {
 	************************************* 
 */
 
+
+
+/*  *************************************
+	RESUME CONTENT STYLE 											RESUME CONTENT STYLE
+*/
 #resumeStuff{
 	display: inline;
 	float: center;
-	padding: 50px;
 }
 
 #resume_link{
@@ -92,9 +105,11 @@ a:hover, a:active {
 	color: white;
 	text-decoration: none;
 	float: right;
-	padding: 3%;
+	padding: 30px;
 	font-weight: bold;
-	margin-right: 15%;
+	margin-right: 12%;
+	margin-top: 2%;
+	font-size: 1.5em
 	
 }
 
@@ -102,29 +117,33 @@ a:hover, a:active {
 	background-color: #71f278;
 }
 
-#aboutMe {
-	width: 40%;
-	margin: auto;
-	font-size: 1.15em;
+#resumeStuff img{
+	padding: 2%;
+	float: left;
+	margin-left: 12%;
 }
-
-#topBar{
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background-color: #3d3d3d;
-}
-
-/*  ***********************************
-	CONTACT INFO STYLE 
+/*	END RESUME CONTENT STYLE
+	************************************* 
 */
-#contactBlock{
+
+
+
+/*  *************************************
+	CONTACT INFO STYLE 												CONTACT INFO STYLE 
+*/
+
+#contactBlock {
+    width: 80%;
+	margin: auto;
+	overflow: hidden;
+	display: block;
 	
 }
 
 #contactText{
+	list-style-type: none;
 	text-align: left;
-	
+	padding: 5%;
 }
 
 #contactIcons{

@@ -46,7 +46,7 @@ a:hover, a:active {
 }
 
 #aboutMe {
-	width: 40%;
+	width: 60%;
 	margin: auto;
 	font-size: 1.15em;
 	text-align: justify;
@@ -100,20 +100,22 @@ a:hover, a:active {
 	float: center;
 }
 
-#resume_link{
+#resumeLinks{
+	list-style-type: none;
+	width: 30px;
+}
+#resumeLinks li a{
 	background: #424242;
 	color: white;
-	text-decoration: none;
 	float: right;
 	padding: 30px;
 	font-weight: bold;
-	margin-right: 12%;
+	margin-right: 0%;
 	margin-top: 2%;
 	font-size: 1.5em
-	
 }
 
-#resume_link:hover{
+#resumeLinks li a:hover{
 	background-color: #71f278;
 }
 
@@ -155,3 +157,9 @@ a:hover, a:active {
 /*	END CONTACT INFO STYLE
 	************************************* 
 */
+
+
+/* centering jump fix*/
+html {
+  overflow-y: scroll;
+}

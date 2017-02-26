@@ -20,8 +20,9 @@ h1{
 h2{
 	color: #3d3d3d;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	text-transform: uppercase;
+
 }
 
 a:link, a:visited {
@@ -96,8 +97,10 @@ a:hover, a:active {
 	RESUME CONTENT STYLE 											RESUME CONTENT STYLE
 */
 #resumeStuff{
-	margin: 5%;
+	width: 80%;
+	margin: auto;
 	display: block;
+	margin-top: 40px;
 }
 
 #resumeLinks{
@@ -137,23 +140,30 @@ a:hover, a:active {
 */
 
 #contactBlock {
-    width: 80%;
 	margin: auto;
-	overflow: hidden;
-	display: block;
-	
+	display: inline-block;
 }
 
 #contactText{
 	list-style-type: none;
-	text-align: left;
-	float: left;
+	text-align: center;
+	line-height: 1em;
+	position: relative;
+
 }
 
 #contactIcons{
+	margin: auto;
+	width: 20%;
+	display: inline;
+	position: relative;
+}
+#contactIcons li{
 	float: left;
 	size: 10em;
+	padding: 10px;
 	list-style-type: none;
+	display: inline;
 }
 
 #contactText h3{
@@ -162,6 +172,7 @@ a:hover, a:active {
 
 #contactText p{
 	font-size: 1.5em;
+	
 }
 /*	END CONTACT INFO STYLE
 	************************************* 

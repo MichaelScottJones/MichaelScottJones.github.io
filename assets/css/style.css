@@ -16,6 +16,13 @@ h1{
 	text-transform: uppercase;
 }
 
+#topBar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #3d3d3d;
+	font-weight: bold;
+}
 
 h2{
 	color: #3d3d3d;
@@ -23,6 +30,10 @@ h2{
 	font-size: 2.5em;
 	text-transform: uppercase;
 
+}
+
+h3{
+	font-size: 1.5em;
 }
 
 a:link, a:visited {
@@ -39,20 +50,22 @@ a:hover, a:active {
 	padding-left: 1%;
 }
 
-#topBar{
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background-color: #3d3d3d;
-}
 
-#aboutMe {
+
+.body_text{
 	width: 60%;
 	margin: auto;
 	font-size: 1.15em;
 	text-align: justify;
 	line-height: 1.2em;
+	margin-bottom: 150px;
+	padding: 50px
 }
+
+#signoff {
+	text-align: center;
+}
+
 
 
 /*  *************************************
@@ -96,34 +109,56 @@ a:hover, a:active {
 /*  *************************************
 	RESUME CONTENT STYLE 											RESUME CONTENT STYLE
 */
-#resumeStuff{
-	width: 80%;
-	margin: auto;
-	display: block;
-	margin-top: 40px;
+
+.resume_body_left{
+	list-style: none;
+	text-align: left;
+	float: left;
+	width: 30%;
+	margin-left: 18%;
+	margin-bottom: 200px;
 }
+
+.resume_body_right{
+	list-style: none;
+	text-align: left;
+	float: right;
+	width: 30%;
+	margin-right: 12%;
+}
+
+.resume p{
+	margin: 0px;
+}
+
+.resume h4{
+	margin: 0px;
+}
+
+.resume ul{
+	margin: 0px;
+	
+}
+
 
 #resumeLinks{
 	list-style-type: none;
-	float: left;
+	display: block;
 }
 
-#resumeLinks li a{
-	display: block;
+#resumeLinks a{
+	display: inline-block;
 	background: #424242;
 	color: white;
 	padding: 20px;
 	font-weight: bold;
 	font-size: 1.5em;
-	margin: 10px;
+	margin: 30px;
+	width: 25%;
 }
 
-#resumeLinks li a:hover{
+#resumeLinks a:hover{
 	background-color: #71f278;
-}
-
-#resumeStuff img{
-	float: left;
 }
 
 .clearfix{
@@ -139,44 +174,57 @@ a:hover, a:active {
 	CONTACT INFO STYLE 												CONTACT INFO STYLE 
 */
 
-#contactBlock {
-	margin: auto;
-	display: inline-block;
+#contactIcons{
+	margin-top: 50px;
+}
+
+#contactIcons a{
+	margin: 20px;
+	padding: 0px;
 }
 
 #contactText{
+	margin: auto;
 	list-style-type: none;
 	text-align: center;
 	line-height: 1em;
-	position: relative;
-
-}
-
-#contactIcons{
-	margin: auto;
-	width: 20%;
-	display: inline;
-	position: relative;
-}
-#contactIcons li{
-	float: left;
-	size: 10em;
-	padding: 10px;
-	list-style-type: none;
-	display: inline;
 }
 
 #contactText h3{
-	font-size: 2em;
+	font-size: 2.5em;
 }
 
 #contactText p{
-	font-size: 1.5em;
+	font-size: 2em;
 	
 }
 /*	END CONTACT INFO STYLE
 	************************************* 
 */
+
+
+
+/*  *************************************
+	EDUCATION INFO STYLE 												EDUCATION INFO STYLE 
+*/
+
+.education{
+	width: 60%;
+	text-align: left;
+	margin: auto;
+	margin-bottom: 150px;
+}
+
+.education h2{
+	text-align: center;
+}
+
+/*	END EDUCATION INFO STYLE
+	************************************* 
+*/
+
+/*  *************************************
+	PERSONAL INFO STYLE 												PERSONAL INFO STYLE 
 
 
 /* centering jump fix*/

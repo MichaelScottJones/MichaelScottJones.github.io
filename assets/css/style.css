@@ -14,6 +14,8 @@ h1{
 	text-align: center;
 	font-size: 3em;
 	text-transform: uppercase;
+	padding: 0;
+	margin: 15px;
 }
 
 #topBar{
@@ -29,11 +31,18 @@ h2{
 	text-align: center;
 	font-size: 2.5em;
 	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
 
 }
 
 h3{
 	font-size: 1.5em;
+}
+
+a{
+	transition: color 0.5s;
+	transition: background 0.5s;
 }
 
 a:link, a:visited {
@@ -63,9 +72,18 @@ a:hover, a:active {
 }
 
 #signoff {
-	text-align: center;
+	/* text-align: center; */
 }
 
+img{
+	float: left;
+	padding: 20px;
+}
+
+.home{
+	width: 70%;
+	margin: auto;
+}
 
 
 /*  *************************************
@@ -158,7 +176,7 @@ a:hover, a:active {
 }
 
 #resumeLinks a:hover{
-	background-color: #71f278;
+	background: #71f278;
 }
 
 .clearfix{
@@ -223,9 +241,14 @@ a:hover, a:active {
 	************************************* 
 */
 
-/*  *************************************
-	PERSONAL INFO STYLE 												PERSONAL INFO STYLE 
+footer{
+	text-align: center;
+	font-size: 0.8em;
+	color: #71f278;
+	margin: 10px;
+	bottom: 0;
 
+}
 
 /* centering jump fix*/
 html {

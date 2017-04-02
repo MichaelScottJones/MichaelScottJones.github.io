@@ -43,20 +43,21 @@ h3{
 a{
 	transition: color 0.5s;
 	transition: background 0.5s;
+	text-decoration: none;
 }
 
-a:link, a:visited {
+#contactIcons a:link, #contactIcons a:visited {
     color: #424242;
 	text-decoration: none;
-	padding-left: 1%;
-	padding-right: 1%;
 }
 
-a:hover, a:active {
-    color: #999999;
+#contactIcons a:hover, #contactIcons a:active {
+    color: #71f278;
 	text-decoration: none;
-	padding-right: 1%;
-	padding-left: 1%;
+}
+
+#contactIcons a{
+	transition: color 0.5s;
 }
 
 
@@ -68,11 +69,7 @@ a:hover, a:active {
 	text-align: justify;
 	line-height: 1.2em;
 	margin-bottom: 150px;
-	padding: 50px
-}
-
-#signoff {
-	/* text-align: center; */
+	padding: 0px
 }
 
 img{
@@ -83,6 +80,7 @@ img{
 .home{
 	width: 70%;
 	margin: auto;
+	padding: 0;
 }
 
 
@@ -134,7 +132,6 @@ img{
 	float: left;
 	width: 30%;
 	margin-left: 18%;
-	margin-bottom: 200px;
 }
 
 .resume_body_right{
@@ -158,13 +155,7 @@ img{
 	
 }
 
-
-#resumeLinks{
-	list-style-type: none;
-	display: block;
-}
-
-#resumeLinks a{
+.button{
 	display: inline-block;
 	background: #424242;
 	color: white;
@@ -175,7 +166,17 @@ img{
 	width: 25%;
 }
 
-#resumeLinks a:hover{
+.button-sm{
+	display: inline-block;
+	background: #424242;
+	color: white;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 20px;
+}
+
+.button:hover, .button-sm:hover{
 	background: #71f278;
 }
 
@@ -240,6 +241,11 @@ img{
 /*	END EDUCATION INFO STYLE
 	************************************* 
 */
+
+.projects{
+	width: 70%;
+	margin: auto;
+}
 
 footer{
 	text-align: center;

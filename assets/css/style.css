@@ -207,6 +207,7 @@ img{
 	list-style-type: none;
 	text-align: center;
 	line-height: 1em;
+	padding: 0;
 }
 
 #contactText h3{

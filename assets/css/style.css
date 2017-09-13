@@ -6,7 +6,7 @@ body{
 	text-align: center;
 	padding: 0px;
 	width: 100%;
-	padding-top: 180px;
+	padding-top: 110px;
 }
 
 h1{
@@ -15,7 +15,7 @@ h1{
 	font-size: 3em;
 	text-transform: uppercase;
 	padding: 0;
-	margin: 15px;
+	margin: 0;
 }
 
 #topBar{
@@ -33,11 +33,14 @@ h2{
 	text-transform: uppercase;
 	padding: 0;
 	margin: 0;
-
 }
 
 h3{
 	font-size: 1.5em;
+}
+
+p{
+	padding: 5px;
 }
 
 a{
@@ -60,27 +63,28 @@ a{
 	transition: color 0.5s;
 }
 
-
-
 .body_text{
-	width: 60%;
-	margin: auto;
-	font-size: 1.15em;
 	text-align: justify;
 	line-height: 1.2em;
-	margin-bottom: 150px;
-	padding: 0px
+	padding: 0px;
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
 }
 
 img{
-	float: left;
 	padding: 20px;
+	display: inline-block;
+	width: 40%;
+	
 }
 
-.home{
-	width: 70%;
+main{
+	width: 950px;
 	margin: auto;
 	padding: 0;
+	display: inline-block;
+	vertical-align: top;
 }
 
 
@@ -102,7 +106,7 @@ img{
 #navBar li a{
 	display: block;
 	text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     color: #424242;
 	text-decoration: none;
 }
@@ -242,8 +246,15 @@ img{
 	************************************* 
 */
 
-.projects{
-	width: 70%;
+.project{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.project p{
+	width: 80%;
+	text-align: justify;
 	margin: auto;
 }
 
